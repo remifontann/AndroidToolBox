@@ -17,6 +17,9 @@ class HomeActivity : AppCompatActivity() {
         logout.setOnClickListener {
             doDeco()
         }
+        saveInfo.setOnClickListener{
+            startActivity(Intent(this, SaveActivity::class.java))
+        }
     }
     fun doDeco(){
         val userPref = getSharedPreferences(Constants.UserPreferencesName, Context.MODE_PRIVATE)
