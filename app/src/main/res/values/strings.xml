@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AndroidToolBox</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment</string>
+    <string name="button_first_fragment">Button first fragment</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
