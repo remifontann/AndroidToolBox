@@ -72,7 +72,7 @@
         tools:srcCompat="@android:drawable/stat_notify_chat" />
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/webservicesButton"
         android:layout_width="83dp"
         android:layout_height="83dp"
         android:layout_marginStart="40dp"

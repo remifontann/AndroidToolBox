@@ -23,6 +23,9 @@ class HomeActivity : AppCompatActivity() {
         permissionButton.setOnClickListener {
             startActivity(Intent(this, PermissionActivity::class.java))
         }
+        webservicesButton.setOnClickListener {
+            startActivity(Intent(this, WebServicesActivity::class.java))
+        }
     }
     fun doDeco(){
         val userPref = getSharedPreferences(Constants.UserPreferencesName, Context.MODE_PRIVATE)
