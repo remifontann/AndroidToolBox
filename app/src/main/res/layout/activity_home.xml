@@ -7,7 +7,7 @@
     tools:context=".HomeActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/RequestView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="165dp"
@@ -67,7 +67,7 @@
         android:background="@color/colorPrimary"
         app:layout_constraintEnd_toStartOf="@+id/saveInfo"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/RequestView"
         app:srcCompat="@android:drawable/stat_notify_chat"
         tools:srcCompat="@android:drawable/stat_notify_chat" />
 
