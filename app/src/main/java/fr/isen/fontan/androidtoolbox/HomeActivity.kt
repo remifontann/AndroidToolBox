@@ -20,6 +20,9 @@ class HomeActivity : AppCompatActivity() {
         saveInfo.setOnClickListener{
             startActivity(Intent(this, SaveActivity::class.java))
         }
+        permissionButton.setOnClickListener {
+            startActivity(Intent(this, PermissionActivity::class.java))
+        }
     }
     fun doDeco(){
         val userPref = getSharedPreferences(Constants.UserPreferencesName, Context.MODE_PRIVATE)
