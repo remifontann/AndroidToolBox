@@ -4,7 +4,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import kotlinx.android.synthetic.main.recycler_view_contact_cell.*
 import kotlinx.android.synthetic.main.recycler_view_contact_cell.view.*
 
 class ContactsAdapter(val contacts: ArrayList<ContactModel>): RecyclerView.Adapter<ContactsAdapter.ContactViewHolder>() {
@@ -24,7 +23,7 @@ class ContactsAdapter(val contacts: ArrayList<ContactModel>): RecyclerView.Adapt
 
     class ContactViewHolder(val view: View): RecyclerView.ViewHolder(view) {
         fun bind(contact: ContactModel) {
-            view.displayNameTextView.text = contact.displayName
+            view.webServicesContacts.text = contact.displayName
         }
     }
 }

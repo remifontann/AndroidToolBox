@@ -1,33 +1,22 @@
 package fr.isen.fontan.androidtoolbox
 
-import android.R.attr
-import android.R.attr.bitmap
 import android.annotation.SuppressLint
 import android.app.Activity
 import android.content.Context
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.graphics.Bitmap
-import android.graphics.BitmapFactory
 import android.location.Location
 import android.location.LocationListener
 import android.location.LocationManager
-import android.net.Uri
 import android.os.Bundle
 import android.provider.ContactsContract
 import android.provider.MediaStore
-import android.util.Log
-import android.widget.Adapter
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.activity_permission.*
-import java.io.File
-import java.security.acl.Permission
-import java.util.jar.Manifest
 
 
 class PermissionActivity : AppCompatActivity(), LocationListener {
