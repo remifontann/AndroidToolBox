@@ -25,9 +25,9 @@ class WebservicesAdapter(val webContacts: ArrayList<ContactModel>): RecyclerView
 
     class ContactViewHolder(val view: View): RecyclerView.ViewHolder(view) {
         fun bind(contact: ContactModel) {
-            Picasso.get().load("http://i.imgur.com/DvpvklR.png").into(view.webServicesPicture)
             view.webServicesTextView.text = contact.displayName
             //Picasso.get().load(person.picture).resize(200, 200).into(view.webServicesPicture)
+            Picasso.get().load("http://i.imgur.com/DvpvklR.png").into(view.webServicesPicture)
         }
     }
 }
