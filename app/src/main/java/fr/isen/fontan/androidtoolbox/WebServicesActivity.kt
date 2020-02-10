@@ -23,7 +23,7 @@ class WebServicesActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_web_services)
 
-        val userApiUrl = "https://randomuser.me/api/?results=2"
+        val userApiUrl = "https://randomuser.me/api/?results=20"
         val queue = Volley.newRequestQueue(this)
 
         val req = StringRequest(Request.Method.GET, userApiUrl, Response.Listener {

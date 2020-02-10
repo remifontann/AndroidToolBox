@@ -27,7 +27,7 @@ class UserModelAdaptater(val contacts: ArrayList<UserModel>): RecyclerView.Adapt
 
     class ContactViewHolder(val view: View): RecyclerView.ViewHolder(view) {
         fun bind(contact: UserModel) {
-            view.webServicesTextView.text = contact.name?.first ?: "name"
+            view.webServicesTextView.text = contact.name?.first?: "firstname"
         }
 
         fun picasso(contact: UserModel){
