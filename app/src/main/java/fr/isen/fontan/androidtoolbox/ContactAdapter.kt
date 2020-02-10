@@ -4,7 +4,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import kotlinx.android.synthetic.main.activity_permission.view.*
 import kotlinx.android.synthetic.main.recycler_view_contact_cell.view.*
+import kotlinx.android.synthetic.main.recycler_view_webservices.view.*
 
 class ContactsAdapter(val contacts: ArrayList<ContactModel>): RecyclerView.Adapter<ContactsAdapter.ContactViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ContactViewHolder {
